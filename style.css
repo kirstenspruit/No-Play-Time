@@ -41,9 +41,7 @@ body {
     background-color: var(--color-bg);
 }
 
-main {
-    /* background-color: var(--color-bg); */
-}
+
 
 header {
     position: sticky;
@@ -118,10 +116,12 @@ a:hover {
     mix-blend-mode: screen;
 }
 
-.curatorial-text {
+.exhibition-text,
+.downloads {
     background-color: var(--color-bg);
     position: relative;
     min-height: 100vh;
+    z-index: 20;
 }
 
 .draggable {
@@ -130,6 +130,17 @@ a:hover {
     background-color: var(--color-sec);
     cursor: move;
     filter: drop-shadow(0 0 0.5rem #00000080);
+}
+
+.draggable__pdf {
+    width: 20rem;
+    height: 28.25rem;
+}
+.draggable__pdf__print {
+    display: flex;
+    width: 100%;
+    padding-top: 0.5rem;
+    justify-content: center;
 }
 .draggable__content {
     width: 20rem;
@@ -270,7 +281,8 @@ a:hover {
     height: auto;
   }
 
-  .artist {
+
+  .section {
     position: relative;
     padding: 2rem;
     padding-top: 3rem;
@@ -278,7 +290,7 @@ a:hover {
     z-index: 10;
   }
   @media screen and (max-width:900px) {
-    .artist {
+    .section {
         padding: 1rem;
       }
 }
@@ -315,6 +327,16 @@ a:hover {
   .works__title {
     font-size: 1.2rem;
   }
-  .works__label {
-    font-weight: 600;
+
+  .colophon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 4rem;
+    font-size: 0.8rem;
   }
+
+  .semibold {
+    font-weight: bolder;
+  }
+  

@@ -54,7 +54,10 @@ function dragElement(elmnt) {
     document.getElementById("div4"), 
     document.getElementById("div5"), 
     document.getElementById("div6"),
-    document.getElementById("div7")];
+    document.getElementById("div7"),
+    document.getElementById("div8"),
+    document.getElementById("div9"),
+    document.getElementById("div10")];
   
   divs.forEach(div => {
     setRandomPosition(div);  // Set random position on load
