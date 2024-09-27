@@ -250,6 +250,7 @@ a:hover {
   
   img {
     width: 100%;
+    height: auto;
   }
 
   .artist {
@@ -265,6 +266,12 @@ a:hover {
     grid-column-gap: 2rem;
     grid-row-gap: 4rem;
   }
+  @media screen and (min-width:600px) {
+    .works {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+}
   .works__item {
     display: flex;
     flex-direction: column;
