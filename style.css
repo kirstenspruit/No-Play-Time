@@ -48,15 +48,28 @@ main {
 header {
     position: sticky;
     top: 0;
+    height: auto;
     z-index: 99;
     display: flex;
     flex-direction: row;
     padding: 1rem 2rem 1rem 2rem
 }
+@media screen and (max-width:900px) {
+    header {
+        flex-direction: column;
+        row-gap: 1rem;
+        padding: 1rem 1rem 1rem 1rem
+    }
+}
 
 nav {
     flex: 1;
     text-align: right;
+}
+@media screen and (max-width:900px) {
+    nav {
+        text-align: left;
+    }
 }
 
 h1 {
@@ -97,6 +110,7 @@ a:hover {
     position: fixed;
     left: 50%;
     top: 50%;
+    object-fit: contain;
     transform: translate(-50%, -50%);
     width: auto;
     max-width: calc(100%);
@@ -236,11 +250,13 @@ a:hover {
   }
   
   .prev {
+    z-index: 999;
     left: 0;
     font-size: 3rem;
   }
   
   .next {
+    z-index: 999;
     right: 0;
     font-size: 3rem;
   }
@@ -261,13 +277,31 @@ a:hover {
     background-color: var(--color-bg);
     z-index: 10;
   }
+  @media screen and (max-width:900px) {
+    .artist {
+        padding: 1rem;
+      }
+}
   .works {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 2rem;
     grid-row-gap: 4rem;
   }
-  @media screen and (min-width:600px) {
+  
+  @media screen and (max-width:1200px) {
+    .works {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+}
+@media screen and (max-width:900px) {
+    .works {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+}
+  @media screen and (max-width:600px) {
     .works {
         display: grid;
         grid-template-columns: 1fr;
