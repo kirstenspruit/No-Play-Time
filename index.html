@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>No Play Time</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ibm/plex-mono">
+</head>
+
+<body>
+<main>
+    <header>
+        <h1><a class="site-title" href="#top">No Play Time</a></h1>
+        <nav>
+            <a href="#text">text</a> |
+            <a href="#groovido">GROOVDO</a> |
+            <a href="#hala-tawil">Hala Tawil</a> |
+            <a href="#downloads">downloads</a> |
+            <a href="#colophon">colophon</a>
+        </nav>
+    </header>
+    <section class="title">
+        <div class="carousel-container">
+            <div class="carousel">
+              <div class="carousel-item">
+                <img class="carousel__img" src="image_02_color.png">
+                <figcaption class="carousel__caption">
+                    <p>
+                        Image: https://teenagebedroomsonscreen.com/
+                    </p>
+                </figcaption>
+              </div>
+              <div class="carousel-item">
+                <img class="carousel__img" src="image_01_color.png">
+              </div>
+              <div class="carousel-item">
+                <img class="carousel__img" src="image_01_color.png">
+              </div>
+              <div class="carousel-item">
+                <img class="carousel__img" src="image_01_color.png">
+              </div>
+            </div>
+            <button class="prev" onclick="prevSlide()">&larr;</button>
+            <button class="next" onclick="nextSlide()">&rarr;</button>
+          </div>
+        <img class="title__img" src="NPT_title.png">
+
+    </section>
+    <section id="text" class="curatorial-text">
+    <div class="draggable italic" id="div1">
+        <img class="draggable__pin draggable__pin--tl" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--tr" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--bl" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--br" src="star-pin.svg">
+        <div class="draggable__content">
+            <p>During an all-night gaming session with strangers, a young man hears a voice through his headset that sends a jolt through his heart. Instantly in love, he logs off, steps out of his room, and sets off on a mission to find the person behind the voice—venturing beyond the confines of his gaming sanctuary for the first time in what feels like forever.</p>
+        </div>
+      </div>
+      
+      <div class="draggable italic" id="div2">
+        <img class="draggable__pin draggable__pin--tl" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--tr" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--bl" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--br" src="star-pin.svg">
+        <div class="draggable__content">
+            <p>She kept to herself, illuminated by the soft glow of the screen, warmed by the subtle hum of her computer. She found comfort in the cold press of wood beneath her legs. She understood that we are destined for wild disharmony, yet she was content—though perpetually weighed down by guilt. She wandered endlessly through the scrapyards of her thoughts and the digital spaces she inhabited. Until one day, she’d had enough, and finally decided to leave her room.
+            </p>
+        </div>
+      </div>
+      
+      <div class="draggable" id="div3">
+        <img class="draggable__pin draggable__pin--tl" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--tr" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--bl" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--br" src="star-pin.svg">
+        <div class="draggable__content">
+            <p>This exhibition is powered by the stories of two teenagers, each on their own journey, though perhaps one is a step closer to maturity than the other. Both lived here, separately, and this is their bedroom. They both left behind these objects: a bed, a carpet, a desk, a computer… They act as clues, forming a constellation that hints at the intricacies of their inner worlds.</p>
+        </div>
+
+      </div>
+      <div class="draggable" id="div4">
+        <img class="draggable__pin draggable__pin--tl" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--tr" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--bl" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--br" src="star-pin.svg">
+        <div class="draggable__content">
+            <p>There’s something about the colors in this bedroom: vivid yet subdued, as if once alive with the electric thrill of friendship, love, and discovery, and now caught in confusion and uncertainty. It’s the palette of adolescence, where contrasts reign, freedom and responsibility, innocence and wisdom, laughter and angst. Every choice made by the artists, Hala Tawil and GROOVIDO, feels more than deliberate, as though each object carries a weight in telling the stories of these absent teenagers. Teens on the cusp, stepping out of youth and into the unknown of adulthood.</p>
+        </div>
+
+      </div>
+
+      <div class="draggable" id="div5">
+        <img class="draggable__pin draggable__pin--tl" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--tr" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--bl" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--br" src="star-pin.svg">
+        <div class="draggable__content">
+            <p>Do you remember that rush after school, racing to the phone to call a friend you’d just spent the entire day with, only to talk for hours more? What could we possibly have had left to say? Think of all the wonder and torment that defined us as teenagers, spent hiding away in bedrooms, behind screens, lost in both solitude and connection.</p>
+        </div>
+    
+      </div>
+      <div class="draggable" id="div6">
+        <img class="draggable__pin draggable__pin--tl" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--tr" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--bl" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--br" src="star-pin.svg">
+        <div class="draggable__content">
+            <p>The technicolor experience of being a teenager.</p>
+        </div>
+    
+      </div>
+      <div class="draggable" id="div7">
+        <img class="draggable__pin draggable__pin--tl" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--tr" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--bl" src="star-pin.svg">
+        <img class="draggable__pin draggable__pin--br" src="star-pin.svg">
+        <div class="draggable__content">
+            <p>Hala Tawil’s work is far from cheerful; it feels eerie, constrained, almost deliberately muted. Yet, within this sense of confinement, space begins to expand, pulling us into a different dimension. Even there, however, we remain burdened by the weight of the mundane, by the struggles of sleeplessness, the relentless hustle of daily life, or perhaps the existential fate that binds us to work and the world. The bed, once a refuge for rest, no longer provides comfort but becomes a site of anxiousness, where sleep is subtracted rather than found. Then you’re left contemplating the ceiling. </p>
+            <br>
+            <p>GROOVIDO, on the other hand, two creators juggling design, art, and technology—tossing them up and down, left and right. It’s as if they take these vast, multifaceted concepts, throw them against a wall, and what sticks is a kind of shelf bending back on itself, becoming a modern-day vitrine. Through their playful approach, they craft glistening archetypes: the desk, the shelves, the chair, the lamp…  With their practicality they spark the imagination. Their furniture tells the story of a digital realm, ready to be explored by gamers or musicians alike. </p>
+        </div>
+        
+      </div>
+    </section>
+    <section id="groovido" class="artist">
+        <h2>GROOVIDO</h2>
+        <div class="works">
+            <div class="works__item">
+                <div class="works__title">
+                    DIGITAL MUSES_AHEGAO ANGEL
+                </div>
+                <div class="works__img">
+                    <img src="groovido_angel.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> 3D Sand printed, PU Coating, LED<br>
+                    <span class="works__label">Dimensions:</span> 250 x 250 x 100 mm<br>
+                    <span class="works__label">Price:</span> €450,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    DIORAMA COLLECTION_SIDEBOARD
+                </div>
+                <div class="works__img">
+                    <img src="Groovido_Facing the hype_lowres_2.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Laquiered wood, Waxed aluminium, laminated glass<br>
+                    <span class="works__label">Dimensions:</span> 1340 x 470 x 1120 mm (!)<br>
+                    <span class="works__label">Price:</span> €3400,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    DIORAMA COLLECTION_MEDIUMBOARD
+                </div>
+                <div class="works__img">
+                    <img src="Groovido_Facing the hype_lowres_1.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Laquiered wood, Waxed aluminium, laminated glass<br>
+                    <span class="works__label">Dimensions:</span> 1340 x 470 x 1120 mm (!)<br>
+                    <span class="works__label">Price:</span> €3575,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    DIORAMA COLLECTION_HIGHBOARD
+                </div>
+                <div class="works__img">
+                    <img src="Groovido_Facing the hype_lowres_3.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Laquiered wood, Waxed aluminium, laminated glass<br>
+                    <span class="works__label">Dimensions:</span> 1340 x 470 x 1120 mm (!)<br>
+                    <span class="works__label">Price:</span> €3150,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    KEEP OUT COLLECTION_DESK
+                </div>
+                <div class="works__img">
+                    <img src="groovido_desk.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Laquiered wood, Waxed aluminium, laminated glass<br>
+                    <span class="works__label">Dimensions:</span> 1500 x 600 x 730 mm<br>
+                    <span class="works__label">Price:</span> €3050,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    KEEP OUT COLLECTION_CHAIR
+                </div>
+                <div class="works__img">
+                    <img src="groovido_deskchair.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Wood structure, Foam, Kvadrat Textile<br>
+                    <span class="works__label">Dimensions:</span> 450 x 470 x 700 mm<br>
+                    <span class="works__label">Price:</span> €2350,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    THE LOOTBOX
+                </div>
+                <div class="works__img">
+                    <img src="groovido_lootbox.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Steel Powder coated, Printed Float glass, Foam<br>
+                    <span class="works__label">Dimensions:</span> 600 x 350 x 300 mm<br>
+                    <span class="works__label">Price:</span> €6500,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    PANORAMA_SHELF M
+                </div>
+                <div class="works__img">
+                    <img src="groovido_shelf.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Steel Powder coated, Float glass<br>
+                    <span class="works__label">Dimensions:</span> 300 x 205 x 350 mm<br>
+                    <span class="works__label">Price:</span> 9 pieces, €190,00 each 
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    KEEP OUT COLLECTION_TO SHINE HANGERS
+                </div>
+                <div class="works__img">
+                    <img src="groovido_hangers.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Waxed Aluminium, binding<br>
+                    <span class="works__label">Dimensions:</span> 300 x 300 x 50 mm<br>
+                    <span class="works__label">Price:</span> 3 sets, €250,00 per set
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    KEEP OUT COLLECTION_PENHOLDER
+                </div>
+                <div class="works__img">
+                    <img src="groovido_penholder.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Steel Powdwer coated<br>
+                    <span class="works__label">Dimensions:</span> 80 x 80 x 100 mm<br>
+                    <span class="works__label">Price:</span> €57,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    1 UP and BOOST Loot
+                </div>
+                <div class="works__img">
+                    <img src="groovido_upboost.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Glass and Print<br>
+                    <span class="works__label">Dimensions:</span> 160 x 100 x 50 mm<br>
+                    <span class="works__label">Price:</span> 2 pieces, €64,00 each
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    DELUXE and TRANSPARENT EDITION Loot
+                </div>
+                <div class="works__img">
+                    <img src="groovido_deluxe.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Glass and Print<br>
+                    <span class="works__label">Dimensions:</span> 120 x 80 x 80 mm<br>
+                    <span class="works__label">Price:</span> 2 pieces, €92,00 each
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    LEGENDARY Loot
+                </div>
+                <div class="works__img">
+                    <img src="groovido_legendary.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Glass and Print<br>
+                    <span class="works__label">Dimensions:</span> 100 x 100 x 100 mm<br>
+                    <span class="works__label">Price:</span> €72,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    LITTLE Loot Collection
+                </div>
+                <div class="works__img">
+                    <img src="groovido_littlelootcollection.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Glass and Print<br>
+                    <span class="works__label">Dimensions:</span> 50 x 50 x 50 mm each piece<br>
+                    <span class="works__label">Price:</span> 4 pieces, €250,00
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="hala-tawil" class="artist">
+        <h2>Hala Tawil</h2>
+        <div class="works">
+            <div class="works__item">
+                <div class="works__title">
+                    A Prison of my Own Making (the office)
+                </div>
+                <div class="works__img">
+                    <img src="hala-tawil_A Prison of my Own Making (the office).png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Shiny Velvet Carpet<br>
+                    <span class="works__label">Dimensions:</span> 128 x 128 cm<br>
+                    <span class="works__label">Year:</span> 2024<br>
+                    <span class="works__label">Editions:</span> (1/7)<br>
+                    <span class="works__label">Price:</span> €680,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    A Prison of my Own Making (love)
+                </div>
+                <div class="works__img">
+                    <img src="hala-tawil_A Prison of my Own Making (love).png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Shiny Velvet Carpet<br>
+                    <span class="works__label">Dimensions:</span> 128 x 128 cm<br>
+                    <span class="works__label">Year:</span> 2024<br>
+                    <span class="works__label">Editions:</span> (1/7)<br>
+                    <span class="works__label">Price:</span> €680,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    A Prison of my Own Making (self-care)
+                </div>
+                <div class="works__img">
+                    <img src="hala-tawil_A Prison of my Own Making (self-care).png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Shiny Velvet Carpet<br>
+                    <span class="works__label">Dimensions:</span> 128 x 128 cm<br>
+                    <span class="works__label">Year:</span> 2024<br>
+                    <span class="works__label">Editions:</span> (1/7)<br>
+                    <span class="works__label">Price:</span> €680,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    A Prison of my Own Making (skills)
+                </div>
+                <div class="works__img">
+                    <img src="hala-tawil_A Prison of my Own Making (skills).png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Shiny Velvet Carpet<br>
+                    <span class="works__label">Dimensions:</span> 128 x 128 cm<br>
+                    <span class="works__label">Year:</span> 2024<br>
+                    <span class="works__label">Editions:</span> (1/7)<br>
+                    <span class="works__label">Price:</span> €680,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    Still Trying
+                </div>
+                <div class="works__img">
+                    <img src="hala-tawil_Still Trying.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Suede 250 gsm<br>
+                    <span class="works__label">Dimensions:</span> 142.5 x 180 cm<br>
+                    <span class="works__label">Year:</span> 2022<br>
+                    <span class="works__label">Editions:</span> (1/5)<br>
+                    <span class="works__label">Price:</span> €475,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    The Commute
+                </div>
+                <div class="works__img">
+                    <img src="hala-tawil_The Commute.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Suede 250 gsm<br>
+                    <span class="works__label">Dimensions:</span> 96 x 180 cm<br>
+                    <span class="works__label">Year:</span> 2023<br>
+                    <span class="works__label">Editions:</span> (1/5)<br>
+                    <span class="works__label">Price:</span> €350,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    Preparation
+                </div>
+                <div class="works__img">
+                    <img src="hala-tawil_Preparation.png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Suede 250 gsm<br>
+                    <span class="works__label">Dimensions:</span> 96 x 180 cm<br>
+                    <span class="works__label">Year:</span> 2023<br>
+                    <span class="works__label">Editions:</span> (1/5)<br>
+                    <span class="works__label">Price:</span> €350,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    Wishful Thinking (Day)
+                </div>
+                <div class="works__img">
+                    <img src="hala-tawil_Wishful Thinking (day).png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Suede 250 gsm<br>
+                    <span class="works__label">Dimensions:</span> 140 x 180 cm<br>
+                    <span class="works__label">Year:</span> 2023<br>
+                    <span class="works__label">Editions:</span> (1/5)<br>
+                    <span class="works__label">Price:</span> €450,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    Wishful Thinking (Night)
+                </div>
+                <div class="works__img">
+                    <img src="hala-tawil_Wishful Thinking (night).png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Suede 250 gsm<br>
+                    <span class="works__label">Dimensions:</span> 140 x 180 cm<br>
+                    <span class="works__label">Year:</span> 2023<br>
+                    <span class="works__label">Editions:</span> (1/5)<br>
+                    <span class="works__label">Price:</span> €450,00
+                </div>
+            </div>
+            <div class="works__item">
+                <div class="works__title">
+                    Still Trying (to sleep)
+                </div>
+                <div class="works__img">
+                    <img src="hala-tawil_Still Trying (to sleep).png">
+                </div>
+                <div class="works__info">
+                    <span class="works__label">Material:</span> Peerzik Polyester<br>
+                    <span class="works__label">Dimensions:</span> 140 x 180 cm<br>
+                    <span class="works__label">Year:</span> 2024<br>
+                    <span class="works__label">Editions:</span> Single edition<br>
+                    <span class="works__label">Price:</span> €300,00
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="downloads" class="downloads">
+
+    </section>
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
