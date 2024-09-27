@@ -33,7 +33,7 @@ html {
 body {
     margin: 0;
     width: 100vw;
-    font-family: "IBM Plex Mono", sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: var(--fs-main);
     color: var(--color-main);
     background-color: var(--color-bg);
